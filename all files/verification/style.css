@@ -1,0 +1,292 @@
+.body{
+    background-color:#000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+    
+}
+#{
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+.form{
+    width:500px;
+    border: 2px solid #ccc;
+    padding: 30px;
+    background: #fff;
+    border-radius: 15px;
+}
+.h2{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.input{
+    display: block;
+    border: 2px solid #ccc;
+    width: 95%;
+    padding: 10px;
+    margin: 10px auto;
+    border-radius: 5px;
+
+}
+.label{
+    color: #888;
+    font-size: 18px;
+    padding: 10px;
+}
+.button{
+    
+    display:inline-block;
+    border: none;
+    padding: 10px 16px;
+    margin-bottom: 0;
+    font-size: 18px;
+    font-weight: normal;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 4px;
+    
+
+    
+}
+
+
+
+
+.button:hover{
+    opacity: .7;
+}
+.error{
+    background: #f2dede;
+    color: #a94442;
+    padding: 10px;
+    width: 95%;
+    border-radius: 5px;
+    
+}
+.form .checkbox-text{
+
+display:flex;
+align-items:center;
+justify-content:space-between;
+margin-top: 20px;
+
+
+}
+.checkbox-text.checkbox-content{
+
+display: flex;
+align-items: center;
+
+}
+.checkbox-content input{
+
+margin:0 8px -2px 4px;
+accent-color: #4070f4;
+
+}
+.form a{
+
+text-decoration: none;
+
+}
+.form a:hover{
+
+text-decoration: underline;
+
+}
+.form .input-field{
+
+position: relative
+height: 50px;
+width: 100%;
+margin-top: 30px;
+
+}
+
+.form .button{
+
+    margin-top: 35px;
+   }
+.form .button input{
+
+border:none;
+color: #fff;
+font-size: 17px;
+font-weight: 500;
+letter-spacing: 1px;
+border-radius: 6px;
+background-color: #888;
+cursor: pointer;
+
+}
+
+.form .login-signup{
+
+margin-top:30px;
+text-align: center;
+
+
+}
+
+
+
+.alert {    
+    padding: 1rem;
+    border-radius: 5px;
+    color: white;
+    margin: 1rem 0;
+}
+
+.alert-success {
+    background-color: #42ba96;
+}
+
+.alert-danger {
+    background-color: #fc5555;
+}
+
+.alert-info {
+    background-color: #2E9AFE;
+}
+
+.alert-warning {
+    background-color: #ff9966;
+}
+
+.navbar-uni{
+    background-color :#576f70;
+
+
+}
+
+
+
+#message{
+
+    display:none;
+    background:#f1f1f1;
+    color:#000;
+    position:relative;
+    padding:20px;
+    margin-top: 10px;;
+}
+
+.open-button {
+    background-color: #555;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    opacity: 0.8;
+    position: fixed;
+    bottom: 23px;
+    right: 28px;
+    width: 280px;
+  }
+  
+  /* The popup form - hidden by default */
+  .form-popup {
+    display: none;
+    position: fixed;
+    bottom: 0;
+    right: 15px;
+    border: 3px solid #f1f1f1;
+    z-index: 9;
+  }
+  
+  /* Add styles to the form container */
+  .form-container {
+    max-width: 300px;
+    padding: 10px;
+    background-color: white;
+  }
+  
+  /* Full-width input fields */
+  .form-container input[type=text], .form-container input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+  }
+  
+  /* When the inputs get focus, do something */
+  .form-container input[type=text]:focus, .form-container input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  
+  /* Set a style for the submit/login button */
+  .form-container .btn {
+    background-color: #04AA6D;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom:10px;
+    opacity: 0.8;
+  }
+  
+  /* Add a red background color to the cancel button */
+  .form-container .cancel {
+    background-color: red;
+  }
+  
+  /* Add some hover effects to buttons */
+  .form-container .btn:hover, .open-button:hover {
+    opacity: 1;
+  }
+
+
+.header-img {
+    height: 80px;
+    margin-left: 40px;
+ 
+}
+.bodyhome {
+    height: 125vh;
+    background-image: url('https://www.ruh.ac.lk/images/2020/02/18/rabindranathauditorium.jpg');
+    background-size: cover;
+    font-family: sans-serif;
+    margin-top:80px;
+    padding: 30px;
+    opacity: 1;
+}
+
+.main {
+    color: white;
+}
+
+.header {
+
+    background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 0 25px 0 black;
+}
+
+header * {
+    display: inline;
+}
+
+.header li {
+    margin: 20px;
+}
+
+.header li a {
+    color: black;
+    text-decoration: none;
+}
+
+
+.blue {
+    color: black;
+}

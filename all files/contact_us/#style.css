@@ -1,0 +1,4 @@
+.bg-theme{background:#4963ad !important;}
+.card-contact{margin-left: -130px;}
+.card-contact h1{color:#fff; font-size: 30px; position: relative; margin-bottom: 0;}
+.card-contact h1:before{content:"" ;height:3px; width: 50px; background-color:#fff; position: absolute; bottum: -10px;}
